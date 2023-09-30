@@ -29,12 +29,6 @@ You can add Headers using different numbers of '#' with a space before your head
 #### Header H4
 ##### Header H5
 ```
-And the results will look like this:
-# Header H1
-## Header H2
-### Header H3
-#### Header H4
-##### Header H5
 
 ---
 
@@ -307,7 +301,7 @@ For compatibility reasons, please leave at least a blank line above and below th
 
 ---
 
-## What are not included here?
+## What is not included here?
 - How to insert HTML code blocks
 - How to embed streaming player or audio player, etc.
 - More advanced manipulations and operations that may be helpful.
