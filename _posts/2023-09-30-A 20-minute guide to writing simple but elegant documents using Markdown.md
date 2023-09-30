@@ -209,14 +209,14 @@ To add an image, you need to start with an exclamation mark (!), followed by the
 ```Markdown
 Now you can see an image of Klee:
 
-![Klee](./RuichenQi.github.io/tree/main/assets/images/markdown/Klee.jpg)
+![Klee](../assets/images/markdown/klee.jpg)
 ```
 
 The result is:
 
 Now you can see an image of Klee:
 
-![Klee](./RuichenQi.github.io/tree/main/assets/images/markdown/Klee.jpg)
+![Klee](../assets/images/markdown/klee.jpg)
 
 To resize or move the image, create a \<div> element that is aligned to the center of the page, and contains an \<img> element that displays an image of Klee: 
 ```Markdown
