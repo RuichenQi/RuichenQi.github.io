@@ -209,34 +209,34 @@ To add an image, you need to start with an exclamation mark (!), followed by the
 ```Markdown
 Now you can see an image of Klee:
 
-![Klee](https://github.com/RuichenQi/RuichenQi.github.io/blob/main/assets/images/markdown/klee.jpg)
+![Klee](https://ruichenqi.github.io/assets/images/markdown/klee.jpg)
 ```
 
 The result is:
 
 Now you can see an image of Klee:
 
-![Klee](https://github.com/RuichenQi/RuichenQi.github.io/blob/main/assets/images/markdown/klee.jpg)
+![Klee](https://ruichenqi.github.io/assets/images/markdown/klee.jpg)
 
 To resize or move the image, create a \<div> element that is aligned to the center of the page, and contains an \<img> element that displays an image of Klee: 
 ```Markdown
 <div  align="center">  
- <img src="../assets/images/markdown/klee.jpg" width = "150" height = "200" alt="Klee" align=center />
+ <img src="https://ruichenqi.github.io/assets/images/markdown/klee.jpg" width = "150" height = "200" alt="Klee" align=center />
 </div>
 ```
 Now you can see a resized and centered image of Klee:
 <div  align="center">  
- <img src="../assets/images/markdown/klee.jpg" width = "150" height = "200" alt="Klee" align=center />
+ <img src="https://ruichenqi.github.io/assets/images/markdown/klee.jpg" width = "150" height = "200" alt="Klee" align=center />
 </div>
 You can also add images or website addresses as hyperlinks:
 
 ```Markdown
-[Klee](../assets/images/markdown/klee.jpg)
+[Klee](https://ruichenqi.github.io/assets/images/markdown/klee.jpg)
 [Visit my home page](https://ruichenqi.github.io/)
 ```
 And now you can view the image or browse the website by clicking hyperlinks:
 
-[Klee](../assets/images/markdown/klee.jpg)
+[Klee](https://ruichenqi.github.io/assets/images/markdown/klee.jpg)
 
 [Visit my home page](https://ruichenqi.github.io/)
 
