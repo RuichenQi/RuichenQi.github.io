@@ -21,14 +21,13 @@ tags: Guide
 ## Headers
 Headers are used in an article to organize the content and make it easier for the reader to follow. Headers are usually written in a larger font and in bold to stand out from the rest of the text. There are different levels of headers, such as H1, H2, H3, etc., that indicate the hierarchy of the sections and subsections.
 
-You can add Headers using '#' with a space before your header.
+You can add Headers using different numbers of '#' with a space before your header.
 ```Markdown
 # Header H1
 ## Header H2
 ### Header H3
 #### Header H4
 ##### Header H5
-###### Header H6
 ```
 And the results will look like this:
 # Header H1
@@ -36,7 +35,6 @@ And the results will look like this:
 ### Header H3
 #### Header H4
 ##### Header H5
-###### Header H6
 
 ---
 
