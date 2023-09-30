@@ -209,7 +209,7 @@ To add an image, you need to start with an exclamation mark (!), followed by the
 ```Markdown
 Now you can see an image of Klee:
 
-![Klee](../assets/images/markdown/klee.jpg)
+![Klee](./RuichenQi.github.io/tree/main/assets/images/markdown/Klee.jpg)
 ```
 
 The result is:
