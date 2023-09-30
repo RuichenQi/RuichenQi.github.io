@@ -298,10 +298,7 @@ $$e^{ix}= (cos x+isin x)$$
 
 Then you can see the beautiful mathematical formulas:
 
-Quadratic function: $y=ax^2+bx+c$
-
-Euler's formula (One of the most elegent formulas in the world):
-$$e^{ix}= (cos x+isin x)$$
+![formulas](https://ruichenqi.github.io/assets/images/markdown/formulas.png)
 
 ---
 
