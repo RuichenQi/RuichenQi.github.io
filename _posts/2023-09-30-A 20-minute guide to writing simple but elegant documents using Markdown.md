@@ -56,18 +56,18 @@ This is your first paragraph. <p>Your next paragraph here.</p>
 ```
 The result is as follows:
 
-This is your first paragraph. <p>Your next paragraph here.</p>
+This is your first paragraph.
+
+Your next paragraph here.
 
 ---
 
 ## Font formats
-Font formats roughly include typeface, font size, font color, bold, italic, underline, strikethrough and so on. Since markdown does not support some of the features in format changing, we can implement these features using embedded HTML code.
+Font formats roughly include typeface, font size, bold, italic, underline, strikethrough and so on. Since markdown does not support some of the features in format changing, we can implement these features using embedded HTML code.
 ```Markdown
 <font face="Times New Roman">Times New Roman</font>
 
 <font size=5px>size=5px</font>
-
-<font color=#FF0000 >Red</font>
 
 **bold text**
 
@@ -83,8 +83,6 @@ The results will look like this:
 
 <font size=5px>size=5px</font>
 
-<font color=#FF0000 >Red</font>
-
 **bold text**
 
 *Italic*
@@ -97,9 +95,6 @@ Besides, you can also combine some of these parameters to achieve a better perfo
 ```Markdown
 *<font face="Times New Roman" size=5px color=#00FFFF><u>This is an example of combination.</u></font>*
 ```
-It looks like this:
-
-*<font face="Times New Roman" size=5px color=#00FFFF><u>This is an example of combination.</u></font>*
 
 ---
 
