@@ -216,7 +216,7 @@ The result is:
 
 Now you can see an image of Klee:
 
-![Klee](../assets/images/markdown/klee.jpg)
+![Klee](https://github.com/RuichenQi/RuichenQi.github.io/tree/main/assets/images/markdown/Klee.jpg)
 
 To resize or move the image, create a \<div> element that is aligned to the center of the page, and contains an \<img> element that displays an image of Klee: 
 ```Markdown
@@ -226,7 +226,7 @@ To resize or move the image, create a \<div> element that is aligned to the cent
 ```
 Now you can see a resized and centered image of Klee:
 <div  align="center">  
- <img src="../assets/images/markdown/klee.jpg" width = "150" height = "200" alt="Klee" align=center />
+ <img src="https://github.com/RuichenQi/RuichenQi.github.io/tree/main/assets/images/markdown/Klee.jpg" width = "150" height = "200" alt="Klee" align=center />
 </div>
 You can also add images or website addresses as hyperlinks:
 
@@ -236,7 +236,7 @@ You can also add images or website addresses as hyperlinks:
 ```
 And now you can view the image or browse the website by clicking hyperlinks:
 
-[Klee](../assets/images/markdown/klee.jpg)
+[Klee](https://github.com/RuichenQi/RuichenQi.github.io/tree/main/assets/images/markdown/Klee.jpg)
 
 [Visit my home page](https://ruichenqi.github.io/)
 
