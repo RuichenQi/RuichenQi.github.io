@@ -69,13 +69,13 @@ Font formats roughly include typeface, font size, bold, italic, underline, strik
 
 <font size=5px>size=5px</font>
 
-**bold text**
+**Bold text**
 
 *Italic*
 
-<u>underline</u>
+<u>Underline</u>
 
-~~strikethrough~~
+~~Strikethrough~~
 ```
 The results will look like this:
 
@@ -83,13 +83,13 @@ The results will look like this:
 
 <font size=5px>size=5px</font>
 
-**bold text**
+**Bold text**
 
 *Italic*
 
-<u>underline</u>
+<u>Underline</u>
 
-~~strikethrough~~
+~~Strikethrough~~
 
 Besides, you can also combine some of these parameters to achieve a better performance.
 ```Markdown
