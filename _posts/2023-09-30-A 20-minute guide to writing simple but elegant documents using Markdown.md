@@ -273,6 +273,7 @@ void main(){
 To display characters originally used to format a Markdown document, precede the characters with a backslash character \
 
 The characters listed below can be escaped using the backslash character:
+
 | Character | Name | Character | Name |
 | :- |:- | :- |:- |
 | \ | backslash | # | pound sign |
