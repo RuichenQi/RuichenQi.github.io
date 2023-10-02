@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From History to Properties: A Quick View of Integrated Circuits and Properties of MOS Transistors as Switches
+title: From History to Properties，A Quick View of Integrated Circuits and Properties of MOS Transistors as Switches
 subtitle: This article contains a quick view of the history of integrated circuits, the rapid development of this industry, the challenges we are facing and properties of MOS transistors as switches
 categories: CMOS VLSI
 tags: CMOS VLSI Design
