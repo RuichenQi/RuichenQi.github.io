@@ -24,7 +24,7 @@ In 1958, Jack Kilby built the first integrated circuit flip-flop with two transi
 
 ## The rapid development and challenges of the integrated circuit industry in the 21st century
 
-In 2022, Apple announced the M2 chip using next-generation 5-nanometer technology with more than 20 billion transistors[1]. Such a high growth rate is rarely seen in other industries.
+In 2022, Apple announced the M2 chip using next-generation 5-nanometer technology with more than 20 billion transistors.The system-on-a-chip (SoC) design of M2 is built using enhanced, second-generation 5-nanometer technology, and consists of 20 billion transistors — 25 percent more than M1. The additional transistors improve features across the entire chip, including the memory controller that delivers 100GB/s of unified memory bandwidth — 50 percent more than M1. [1]. Such a high-speed technological iteration is rarely seen in other industries.
 
 The development comes from the miniaturization of transistors and the improvements of manufacturing processes. According to Moore's law, the number of transistors on a microchip doubled about every two years, and predicted that this would continue for at least another decade. Competitive pressure drives each company to follow Moore’s Law, making it a self-fulfilling prophecy. In the past few decades, the integration and performance of integrated circuits were constantly improving, which became the cornerstone of emerging technologies, such as high-speed communication network, the internet of things, and artificial intelligence.
 
