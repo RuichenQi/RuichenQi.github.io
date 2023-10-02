@@ -11,8 +11,15 @@ tags: CMOS VLSI Design
 In this article, we will first have a brief view of the history of integrated circuits, and introduce structures and properties of MOS transistors as switches. In the next article we will have more in-depth introduction to how transistors actually work, derive the small-signal model of transistors and discuss the secondary effects.
 
 ## A Brief History
-In 1947, John Bardeen and Walter Brattain built the first functioning point contact transistor when working in a group led by physicist William Shockley at Bell Laboratories. The point contact transistor was able to amplify a weak input signal by controlling the flow of a larger output current across the germanium. This was a breakthrough in the field of electronics, as it opened up new possibilities for computing, communication, and technology. Bardeen, Brattain, and their supervisor William Shockley received the Nobel Prize in Physics in 1956 for creating the transistor. An image of the first transistor in the world is shown below. The sheet of metal in the yellow circle below the metal arrow is the germanium metal.  
-![the first transistor](https://ruichenqi.github.io/assets/images/VLSI/1/the_first_transistor.jpeg)
+In 1947, John Bardeen and Walter Brattain built the first functioning point contact transistor when working in a group led by physicist William Shockley at Bell Laboratories. The point contact transistor was able to amplify a weak input signal by controlling the flow of a larger output current across the germanium. This was a breakthrough in the field of electronics, as it opened up new possibilities for computing, communication, and technology. Bardeen, Brattain, and their supervisor William Shockley received the Nobel Prize in Physics in 1956 for creating the transistor. An image of the first transistor in the world is shown as Fig 1.1. The sheet of metal in the yellow circle below the metal arrow is the germanium metal. 
+
+<div  align="center">  
+ <img src="https://ruichenqi.github.io/assets/images/VLSI/1/the_first_transistor.jpeg" width = "317" height = "400" alt="the first transistor" align=center />
+ <br>
+    <div style="color:orange;
+    color: #999;
+    padding: 2px;">Fig 1.1: Image of the first transistor in the world</div>
+</div>
 
 In 1958, Jack Kilby built the first integrated circuit flip-flop with two transistors at Texas Instruments. Ten years later, he realized that transistors can be integrate in one piece of silicon. He also received Nobel Prize in 2000 for the invention of integrated circuits.
 
@@ -27,8 +34,14 @@ Obviously, due to the restriction of physical principles, this scaling cannot go
 Although the further progress of chip integration has been challenged, increasing the integration of chips as much as possible is still one of the main means adopted by integrated circuit design and manufacturing enterprises to improve performance of integrated circuits. Many new structures of transistors have been constantly proposed, but it is worth noting that the integrated circuit industry will eventually face the limitations of physical laws. So what is the direction of future development in this industry? No one has a clear answer. Quantum computing may be the outbreak point of this tough situation and lead future technological revolution.
 
 ## MOS Transistors as Switches
-MOS transistors are a type of field-effect transistor (FET) that use a metal-oxide-semiconductor (MOS) structure to control the flow of current between the source and drain terminals. There are four terminals in a single MOS transistor: gate, source, drain and bulk (also called substrate). Most textbooks ignored the substrate terminal when introducing the structure of MOS transistors because in CMOS circuits, the substrate terminal of PMOS is always connected to power and the substrate terminal of NMOS is always connected to ground. However, revealing this terminal will help us have a better understanding of the structures and properties of MOS transistors. In the rest of this article, we assume that the bulk terminal is connected to the source terminal. Typical symbol of MOS transistors is shown below.  
-![mosfet](https://ruichenqi.github.io/assets/images/VLSI/1/mosfet_schematic.png)
+MOS transistors are a type of field-effect transistor (FET) that use a metal-oxide-semiconductor (MOS) structure to control the flow of current between the source and drain terminals. There are four terminals in a single MOS transistor: gate, source, drain and bulk (also called substrate). Most textbooks ignored the substrate terminal when introducing the structure of MOS transistors because in CMOS circuits, the substrate terminal of PMOS is always connected to power and the substrate terminal of NMOS is always connected to ground. However, revealing this terminal will help us have a better understanding of the structures and properties of MOS transistors. In the rest of this article, we assume that the bulk terminal is connected to the source terminal. Typical symbol of MOS transistors is shown as Fig 1.2.  
+<div  align="center">  
+ <img src="https://ruichenqi.github.io/assets/images/VLSI/1/mosfet_schematic.png" width = "390" height = "146" alt="mosfet symbol" align=center />
+ <br>
+    <div style="color:orange;
+    color: #999;
+    padding: 2px;">Fig1.2: Typical symbol of MOS transistors</div>
+</div>
 
 The operation of a MOS transistor depends on the voltage applied to the gate terminal, which creates an electric field that attracts or repels charge carriers in the semiconductor substrate below the oxide layer. For NMOSFET, when the gate voltage is above a certain threshold, an inversion layer of negatively charged carriers forms near the oxide-semiconductor interface, creating a conductive channel between the source and drain. The current flowing through the channel is proportional to the difference between the drain and source voltages, and can be modulated by changing the gate voltage. For PMOSFET, when the gate voltage is below a certain threshold, an electric field is formed, which causes a kind of positively charged carriers called holes (a kind of abstract physical model that doen not exist in real world) in the channel area to flow, causing the circuit to switch on. The current flowing through the channel is similarly proportional to the difference between the source and drain voltages. Therefore, these two types of transistors can be viewed as switches controlled by Vgs. It would be much more complicated if you take a deeper look into the physical principle of transistors cause it involves knowledge of other disciplines including semiconductor physics, quantum physics and structural chemistry, etc. Fortunately, as a VLSI designer, You don't need to figure out all these principles. What you need to do is just understand properties of transistors and how they work from an engineering perspective.
 
