@@ -27,7 +27,7 @@ In the 80s of the 20th century, people began to use computers to complete logic 
 
 Since the 90s of the 20th century, EDA tools have not only helped designers complete electronic system design, but also provided system-level design and simulation independent of process and manufacturer. After decades of continuous development, EDA technology has become a popular technology that can be independently designed and simulated, which directly promotes the development of the electronic information industry. EDA technology has truly entered the golden age at this time.
 
-## The main content of electronic design automation
+## The Main Content of Electronic Design Automation
 
 ### 1. Hardware description language
 
