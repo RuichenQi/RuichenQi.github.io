@@ -13,9 +13,8 @@ In this article, we will first have a brief view of the history of integrated ci
 ## A Brief History
 In 1947, John Bardeen and Walter Brattain built the first functioning point contact transistor when working in a group led by physicist William Shockley at Bell Laboratories. The point contact transistor was able to amplify a weak input signal by controlling the flow of a larger output current across the germanium. This was a breakthrough in the field of electronics, as it opened up new possibilities for computing, communication, and technology. Bardeen, Brattain, and their supervisor William Shockley received the Nobel Prize in Physics in 1956 for creating the transistor. An image of the first transistor in the world is shown as Fig 1.1. The sheet of metal in the yellow circle below the metal arrow is the germanium metal. 
 
+![the first transistor](https://ruichenqi.github.io/assets/images/VLSI/1/the_first_transistor.jpeg)<br>
 <div  align="center">  
- <img src="https://ruichenqi.github.io/assets/images/VLSI/1/the_first_transistor.jpeg" width = "317" height = "400" alt="the first transistor" align=center />
- <br>
     <div style="color:orange;
     color: #999;
     padding: 2px;">Fig 1.1: Image of the first transistor in the world</div>
