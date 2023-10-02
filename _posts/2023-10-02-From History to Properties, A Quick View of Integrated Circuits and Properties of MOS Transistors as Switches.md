@@ -18,7 +18,7 @@ In 1947, John Bardeen and Walter Brattain built the first functioning point cont
     <div style="color:orange;
     color: #999;
     padding: 2px;">Fig 1.1: Image of the first transistor in the world</div>
-</div>
+</div><br/>
 
 In 1958, Jack Kilby built the first integrated circuit flip-flop with two transistors at Texas Instruments. Ten years later, he realized that transistors can be integrate in one piece of silicon. He also received Nobel Prize in 2000 for the invention of integrated circuits.
 
@@ -40,7 +40,7 @@ MOS transistors are a type of field-effect transistor (FET) that use a metal-oxi
     <div style="color:orange;
     color: #999;
     padding: 2px;">Fig1.2: Typical symbol of MOS transistors</div>
-</div>
+</div><br/>
 
 The operation of a MOS transistor depends on the voltage applied to the gate terminal, which creates an electric field that attracts or repels charge carriers in the semiconductor substrate below the oxide layer. For NMOSFET, when the gate voltage is above a certain threshold, an inversion layer of negatively charged carriers forms near the oxide-semiconductor interface, creating a conductive channel between the source and drain. The current flowing through the channel is proportional to the difference between the drain and source voltages, and can be modulated by changing the gate voltage. For PMOSFET, when the gate voltage is below a certain threshold, an electric field is formed, which causes a kind of positively charged carriers called holes (a kind of abstract physical model that doen not exist in real world) in the channel area to flow, causing the circuit to switch on. The current flowing through the channel is similarly proportional to the difference between the source and drain voltages. Therefore, these two types of transistors can be viewed as switches controlled by Vgs. It would be much more complicated if you take a deeper look into the physical principle of transistors cause it involves knowledge of other disciplines including semiconductor physics, quantum physics and structural chemistry, etc. Fortunately, as a VLSI designer, You don't need to figure out all these principles. What you need to do is just understand properties of transistors and how they work from an engineering perspective.
 
