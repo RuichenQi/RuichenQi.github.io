@@ -1,0 +1,4 @@
+
+and introduce properties of CMOS transistors as switches.
+Then we will derive the small-signal model of the transistor and discuss the secondary effects of transistors.
+With this model we will develop basic CMOS logic gates and latches, and these basic cells will lay the foundation for future design of digital integrated circuits. At the end of this article, we will have a deep insight into boolean algebra and figure out how boolean algebra is associated with transistor-level circuits.
