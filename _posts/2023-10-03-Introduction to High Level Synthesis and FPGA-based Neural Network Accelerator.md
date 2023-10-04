@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to High Level Synthesis and FPGA-based Neural Network Accelerator.md
+title: Introduction to High Level Synthesis and FPGA-based Neural Network Accelerator
 subtitle: This article introduces the basic concepts of electronic design automation (EDA), hardware description language (HDL) and high-level synthesis (HLS), introduces the basic process of high-level synthesis and several ideas of neural network hardware accelerator design using one of the mainstream HLS tools - Vivado HLS.
 categories: EDA
 tags: EDA_Tools
