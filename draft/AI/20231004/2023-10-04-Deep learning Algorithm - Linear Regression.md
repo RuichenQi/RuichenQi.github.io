@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Deep learning Algorithm - Linear Regression
+title: Machine learning Algorithm - Linear Regression
 subtitle: This article introduces the concept, formula derivation and optimization methods of linear regression.
 categories: AI
-tags: Deep_Learning_Methods
+tags: Machine_Learning_Algorithms
 ---
 ## What is linear regression
 
