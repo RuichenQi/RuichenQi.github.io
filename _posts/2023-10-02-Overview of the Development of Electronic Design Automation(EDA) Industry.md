@@ -5,7 +5,6 @@ subtitle: This article contains an overview of the development of EDA industry, 
 categories: EDA
 tags: EDA_Tools
 ---
-# Overview of the Development of Electronic Design Automation(EDA) Industry
 
 ## Introduction
 

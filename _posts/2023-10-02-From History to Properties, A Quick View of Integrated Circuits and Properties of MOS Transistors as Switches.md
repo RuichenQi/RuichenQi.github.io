@@ -5,7 +5,6 @@ subtitle: This article contains a quick view of the history of integrated circui
 categories: VLSI
 tags: VLSI_Design
 ---
-# From History to Properties: A Quick View of Integrated Circuits and Properties of MOS Transistors as Switches
 
 ## Preview
 In this article, we will first have a brief view of the history of integrated circuits, and introduce structures and properties of MOS transistors as switches. In the next article we will have more in-depth introduction to how transistors actually work, derive the small-signal model of transistors and discuss the secondary effects.

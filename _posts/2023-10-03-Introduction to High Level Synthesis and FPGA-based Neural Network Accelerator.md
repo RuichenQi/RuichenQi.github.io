@@ -6,8 +6,6 @@ categories: EDA
 tags: EDA_Tools
 ---
 
-# Introduction to High-level Synthesis
-
 ## Electronic Design Automation (EDA)
 
 Electronic design automation refers to the design method that uses computer-aided design software to complete the functional design, synthesis, verification, layout, routing, design rule checking and other processes of integrated circuit. The basic characteristics of EDA technology are the use of hardware description language to describe circuits and support system-level simulation and synthesis. The development of electronic design automation can be divided into three stages: computer-aided design stage, computer-aided engineering design stage and electronic design automation stage. Electronic design automation tool software can be roughly divided into three categories: chip design auxiliary software, programmable chip auxiliary design software and system design auxiliary software. EDA software occupies an important position in the EDA industry. Using EDA software, electronic designers can design electronic systems starting from concepts, algorithms, protocols, etc. A large amount of work can be completed through computers, including the entire process of electronic products design from circuit design and verification to IC or PCB layout and routing to performance analysis. Processing is completed automatically on the computer. EDA tools can not only help designers complete electronic system design, but also provide system-level design and simulation independent of processes and manufacturers.

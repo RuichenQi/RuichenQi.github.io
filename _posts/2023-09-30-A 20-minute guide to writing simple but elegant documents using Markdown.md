@@ -5,9 +5,6 @@ subtitle: This is a simplified tutorial including the most commonly-used markdow
 categories: Markdown
 tags: Guide
 ---
-
-# A 20-minute guide to writing simple but elegant documents using Markdown
-
 ---
 
 *Preface: Markdown is a simple syntax that formats text as headers, lists, boldface, and so on. It is popular among people who write for the web, as it is easy to read and write. Markdown can be used to create websites, documents, notes, books, presentations, email messages, and technical documentation.*
