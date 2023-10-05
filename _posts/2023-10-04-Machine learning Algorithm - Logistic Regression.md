@@ -30,9 +30,9 @@ In most cases, we take P_1 as threshold of probability. In other words, if the o
 ## Binary cross-entrophy cost function
 
 ### Entrophy
-First of all, we need to know what entropy is. The physical meaning of entropy is a measure of the degree of chaos in a system. Later, Shannon introduced the concept of entropy into information theory and proposed the so-called "information entropy" concept. From the perspective of probability theory, it means that the greater the uncertainty of an event, the greater the information entropy. The entropy mentioned below refers to "information entropy"
+First of all, we need to know what entropy is. The physical meaning of entropy is a measure of the degree of chaos in a system. Later, Shannon introduced the concept of entropy into information theory and proposed the so-called "information entropy" concept. From the perspective of probability theory, it means that the greater the uncertainty of an event, the greater the information entropy. The entropy mentioned below refers to "information entropy".
 
-The calculation formula of information entropy is as follows, where p(x_i) is the probability that event P occurs in the i-th category
+The calculation formula of information entropy is as follows, where p(x_i) is the probability that event P occurs in the i-th category.
 
 ![Entrophy](https://ruichenqi.github.io/assets/images/AI/1/entrophy.png)
 
