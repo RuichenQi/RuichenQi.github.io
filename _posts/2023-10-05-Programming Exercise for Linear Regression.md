@@ -15,7 +15,6 @@ For the concept, mathematical derivation and optimization methods of linear regr
 ### Import libraries
 
 ```Python
-import torch
 import matplotlib.pyplot as plt
 import numpy as np
 ```
