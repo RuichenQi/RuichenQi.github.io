@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1696444015 "c:/Users/14244/Documents/GitHub/RuichenQi.github.io/draft/AI/20231004/Linear Regression and Logistic Regression.tex" "Linear Regression and Logistic Regression.pdf" "Linear Regression and Logistic Regression" 1696444016 0
-  "Linear Regression and Logistic Regression.aux" 1696444016 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "Linear Regression and Logistic Regression.tex" 1696444015 1472 6d457c00f748aeb3eae1e97a4784a44e ""
-  "c:/Users/14244/Documents/GitHub/RuichenQi.github.io/draft/AI/20231004/Linear Regression and Logistic Regression.tex" 1696444015 1472 6d457c00f748aeb3eae1e97a4784a44e ""
+["pdflatex"] 1696480134 "c:/Users/14244/Documents/GitHub/RuichenQi.github.io/draft/AI/20231004/Linear Regression and Logistic Regression.tex" "Linear Regression and Logistic Regression.pdf" "Linear Regression and Logistic Regression" 1696480134 0
+  "Linear Regression and Logistic Regression.aux" 1696480134 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "Linear Regression and Logistic Regression.tex" 1696480133 2175 7a3dbb3f3e84a2c95caf5d75372dad4b ""
+  "c:/Users/14244/Documents/GitHub/RuichenQi.github.io/draft/AI/20231004/Linear Regression and Logistic Regression.tex" 1696480133 2175 7a3dbb3f3e84a2c95caf5d75372dad4b ""
   "d:/Texlive/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1695587955 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/Texlive/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1695587550 1004 54797486969f23fa377b128694d548df ""
   "d:/Texlive/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1695587550 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -23,6 +23,7 @@
   "d:/Texlive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1695587550 35752 024fb6c41858982481f6968b5fc26508 ""
   "d:/Texlive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1695587550 32762 7fee39e011c23b3589931effd97b9702 ""
   "d:/Texlive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1695587550 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "d:/Texlive/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1695587550 32716 08e384dc442464e7285e891af9f45947 ""
   "d:/Texlive/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1695588364 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "d:/Texlive/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty" 1695588094 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "d:/Texlive/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1695588102 8356 7bbb2c2373aa810be568c29e333da8ed ""
