@@ -55,7 +55,7 @@ Recommender systems are algorithms that make recommendations to users about the 
 The main problem of recommender systems is recommender systems rely on user preferences and interactions to make recommendations. However, user input can be ambiguous or incomplete, making it challenging to accurately understand their preferences.
 
 ### Recommender systems algorithm
-We define that:
+We use movie recommendation as an example. In this example, we define that:
 
 ![recommendation_0](https://ruichenqi.github.io/assets/images/AI/2/recommendation_0.png)
 
