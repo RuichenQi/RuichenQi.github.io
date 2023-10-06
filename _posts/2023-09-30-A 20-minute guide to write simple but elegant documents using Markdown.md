@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A 20-minute guide to writing simple but elegant documents using Markdown
+title: A 20-minute guide to write simple but elegant documents using Markdown
 subtitle: This is a simplified tutorial including the most commonly-used markdown syntax that can help you write documents efficiently.
 categories: Markdown
 tags: Guide
