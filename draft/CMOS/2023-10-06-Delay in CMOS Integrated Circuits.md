@@ -42,7 +42,7 @@ In a real circuit, the input comes from another gate with a nonzero rise/fall ti
 - Phases 2 is when both NMOSFET and PMOSFET is on.
 - Phases 3 is when PMOSFET is closed and NMOSFET is on.
 
-The differential equations used the long-channel model for transistor current, which is inaccurate in modern processes. And also, they become much complicated when the scale of circuit is large. Therefore, we need to find simplified morels that offer more insight and tolerable accuracy
+The differential equations used the long-channel model for transistor current, which is inaccurate in modern processes. And also, they become much complicated when the scale of circuit is large. Therefore, we need to find simplified morels that offer more insight and tolerable accuracy.
 
 ## RC delay model
 
@@ -113,14 +113,13 @@ This is a complex example of device sizing. Also, the number on the size of the 
 
 ## Timing optimization in transistor level
 
-- RC delay is dependent to layout
+- RC delay is dependent to layout.
   - In a good layout, diffusion nodes are shared wherever possible to reduce the diffusion capacitance. 
-  - Good placement: short wires & no diffusion routing
+  - Good placement: short wires & no diffusion routing.
   - Use multi-fingered transistors if the width of designed transistor is too large to get less diffusion capacitance.
 - Increase transistor sizes – lower R but increase parasitic capacitance. Watch out for self-loading!
-- Increase VDD - not usually possible due to reliability and power penalties
-- Delay is dependent on the pattern of inputs
-  - For instance:
+- Increase VDD - not usually possible due to reliability and power penalties.
+- Delay is dependent on the pattern of inputs. For instance:
 
 ![Ordering](https://ruichenqi.github.io/assets/images/VLSI/2/ordering.png)
 
