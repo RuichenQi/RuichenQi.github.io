@@ -7,7 +7,7 @@ tags: VLSI_Design
 ---
 
 ## Preview
-In this article, we will first have a brief view of the history of integrated circuits, and introduce structures and properties of MOS transistors as switches. In the next article we will have more in-depth introduction to how transistors actually work, derive the small-signal model of transistors and discuss the secondary effects.
+In this article, we will first have a brief view of the history of integrated circuits, and introduce structures and properties of MOS transistors as switches. In the following article we will have more in-depth introduction to how transistors actually work, derive the small-signal model of transistors and discuss the secondary effects.
 
 ## A Brief History
 In 1947, John Bardeen and Walter Brattain built the first functioning point contact transistor when working in a group led by physicist William Shockley at Bell Laboratories. The point contact transistor was able to amplify a weak input signal by controlling the flow of a larger output current across the germanium. This was a breakthrough in the field of electronics, as it opened up new possibilities for computing, communication, and technology. Bardeen, Brattain, and their supervisor William Shockley received the Nobel Prize in Physics in 1956 for creating the transistor. An image of the first transistor in the world is shown as Fig 1.1. The sheet of metal in the yellow circle below the metal arrow is the germanium metal. 
@@ -55,7 +55,7 @@ The conditions for switching on and off are as follows:
 | PMOSFET | Vgs < Vth | Vgs > Vth | From the Source to the Drain|
 
 ## Summary
-In this article, we discussed the history of integrated circuits, the rapid development of the integrated circuit industry and the challenges faced by the integrated circuit industry in the 21st century, and introduced the properties of MOSFETs as switches. In the next article, we will continue to explore how transistors actually work, derive the small-signal model of transistors and discuss the secondary effects.
+In this article, we discussed the history of integrated circuits, the rapid development of the integrated circuit industry and the challenges faced by the integrated circuit industry in the 21st century, and introduced the properties of MOSFETs as switches. In the following article, we will continue to explore how transistors actually work, derive the small-signal model of transistors and discuss the secondary effects.
 
 ## References
 [1]https://www.apple.com/newsroom/2022/06/apple-unveils-m2-with-breakthrough-performance-and-capabilities/  
