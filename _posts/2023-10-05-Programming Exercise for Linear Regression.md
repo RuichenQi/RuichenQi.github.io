@@ -3,7 +3,7 @@ layout: post
 title: Programming Exercise for Linear Regression
 subtitle: This article is for Linear Regression Programming Exercise.
 categories: AI
-tags: Machine_Learning_Algorithms_Programming_Exercise
+tags: Programming
 ---
 
 ## About linear regression
