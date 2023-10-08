@@ -61,7 +61,7 @@ According to the long-channel model, the current Id decreases linearly with chan
 
 ### Gate capacitance and parasitic capacitance
 
-Increase the width of the transistor will increase the gate capacitance proportionally, but will not influence parasitic capacitance.
+Increase the width of the transistor will increase both the gate capacitance and diffusion capacitance proportionally, but increasing channel length increases gate capacitance proportionally but does not affect diffusion capacitance.
 
 Although capacitances have a nonlinear voltage dependence, we use a single average value.
 
