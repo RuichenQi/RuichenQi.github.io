@@ -26,7 +26,7 @@ Transient response analysis is based on charging or discharging of the capacitan
 
 ![Capacitances](https://ruichenqi.github.io/assets/images/VLSI/2/capacitances.png)
 
-The gate capacitance of the transistors in X1 and the diffusion capacitance of the transistors in X2 do not matter because they do not connect to node B. We only care the parasitic capacitance of X1, the gate capacitance of X2 and the wire capacitance when we are considering the node B.
+The gate capacitance of the transistors in X1 and the diffusion capacitance of the transistors in X2 do not matter because they do not connect to node B. We only care the diffusion capacitance of X1, the gate capacitance of X2 and the wire capacitance when we are considering the node B.
 
 Suppose the transistors obey the long-channel models, when the voltage step arrives, we can analyse transient response as follows:
 
@@ -73,7 +73,7 @@ We can simply take transistor as a first-order RC network.
 
 Even for series transistors, we can also use first-order RC network to model cause the error in estimated propagation delay from the first-order approximation is less than 7%. Even in the worst case, where the two time constants are equal, the error is less than 15%.
 
-When we consider a node, what we need to take into consideration is the parasitic capacitances of the logic cells before the node and the gate capacitances of the logic cells behind the node. All these capacitances should be connected to the node we are considering.
+When we consider a node, what we need to take into consideration is the diffusion capacitances of the logic cells before the node and the gate capacitances of the logic cells behind the node. All these capacitances should be connected to the node we are considering.
 
 ### Elmore delay
 
