@@ -254,12 +254,12 @@ Now we can go to the folder and check the generated and saved images. I trained 
 
 Original figures ( RGB figures, 512*512 ):
 
-![1](https://ruichenqi.github.io/assets/images/AI/3/1.png =128x128)
-![2](https://ruichenqi.github.io/assets/images/AI/3/2.png =128x128)
-![3](https://ruichenqi.github.io/assets/images/AI/3/3.png =128x128)
-![4](https://ruichenqi.github.io/assets/images/AI/3/4.png =128x128)
-![5](https://ruichenqi.github.io/assets/images/AI/3/5.png =128x128)
-![6](https://ruichenqi.github.io/assets/images/AI/3/6.png =128x128)
+![1](https://ruichenqi.github.io/assets/images/AI/3/1.png)
+![2](https://ruichenqi.github.io/assets/images/AI/3/2.png)
+![3](https://ruichenqi.github.io/assets/images/AI/3/3.png)
+![4](https://ruichenqi.github.io/assets/images/AI/3/4.png)
+![5](https://ruichenqi.github.io/assets/images/AI/3/5.png)
+![6](https://ruichenqi.github.io/assets/images/AI/3/6.png)
 
 Generated figures ( RGB figures, 128*128 ):
 
@@ -272,7 +272,7 @@ Generated figures ( RGB figures, 128*128 ):
 
 This model can also be used for other dataset. However, due to the limitations of network structure and training resources, it may not work well without optimizations. Here is can example, we use the model to colorize images of landscape:
 
-![0](https://ruichenqi.github.io/assets/images/AI/0.png)
+![0](https://ruichenqi.github.io/assets/images/AI/3/0.png)
 
 
 ## Summary
