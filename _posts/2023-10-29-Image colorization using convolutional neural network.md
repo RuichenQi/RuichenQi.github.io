@@ -35,7 +35,7 @@ import pytorch_ssim
 
 ```Python
 batch_size = 4
-epochs = 500
+epochs = 300
 learning_rate = 0.0001
 image_num = 4     # Number of images in training set
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -105,7 +105,7 @@ We can check whether our training data is well-done by looking through plotted f
 
 ## Model construction
 
-Our model consists of 9 layers, the first four layers are used to extracted features in images, and the fifth, sixth and seventh layers are designed for down-sampling. Then we add two full-connected layers to reconstruct the output image. Leaky-Relu actvation is used for conv2D in order to avoid gradient vanishing problem. Tahn activation is used in the last layer to nominize pixels to [-1, 1].
+Our model consists of 9 layers, the first five layers are used to extracted features in images, and the last four layers are designed for down-sampling. Leaky-Relu actvation is used for conv2D in order to avoid gradient vanishing problem. Tahn activation is used in the last layer to nominize pixels to [-1, 1].
 
 ```Python
 def make_layers(block):
@@ -133,22 +133,25 @@ class Mymodel(nn.Module):
             ('conv2', [64, 128, 3, 1, 1]),
 #            ('pool1', [2, 2, 0]),
             ('conv3', [128, 256, 3, 1, 1]),
-            ('conv4', [256, 256, 3, 1, 1]),
+            ('conv4', [256, 512, 3, 1, 1]),
+            ('conv5', [512, 512, 3, 1, 1]),
+            ('conv6', [512, 256, 3, 1, 1]),
 #            ('pool2', [2, 2, 0]),
-            ('conv5', [256, 128, 3, 1, 1]),
-            ('conv6', [128, 64, 3, 1, 1]),
+            ('conv7', [256, 128, 3, 1, 1]),
+            ('conv8', [128, 64, 3, 1, 1]),
         ])
         self.model_conv = make_layers(conv).to(device)
 #        self.interpolate = nn.Upsample(scale_factor=8, mode="bilinear", align_corners=True).to(device)
 
         self.conv_out = nn.Sequential(
             nn.Conv2d(in_channels=64, out_channels=2, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1)),
-            nn.LeakyReLU(),
-            nn.Linear(in_features=128, out_features=256),
-            nn.LeakyReLU(),
-            nn.Linear(in_features=256, out_features=128),
             nn.Tanh()
         )
+        
+    def forward(self, x):
+        x1 = self.model_conv(x)
+        conv_out = self.conv_out(x1)
+        return conv_out
 
         
     def forward(self, x):
@@ -250,7 +253,7 @@ for label1, label2 in zip(image_labels, edge_labels):
     pred = lab2rgb(image_test, pred[0,0,:,:], pred[0,1,:,:])
     plt.imsave('../image_out/' + str(label2), pred)
 ```
-Now we can go to the folder and check the generated and saved images. I trained the model with about 500 epochs using only several images in an open-source dataset of anime character avatars. However, I will show that the model can actually work well even only several images are trained.
+Now we can go to the folder and check the generated and saved images. I trained the model with about 300 epochs using only several images in an open-source dataset of anime character avatars. However, I will show that the model can actually work well even only several images are trained.
 
 Original figures ( RGB figures, 512*512 ):
 
